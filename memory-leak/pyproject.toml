@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "memory-leak"
+version = "0.1.0"
+description = ""
+authors = ["James Bada Sopkin <69161193+Bada-S@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "memory_leak"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prefect = ">2.0"
+prefect-ray = "^0.2.5"
+ray = "^2.6.3"
+memory-profiler = "^0.61.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
